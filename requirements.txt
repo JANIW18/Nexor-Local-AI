@@ -1,0 +1,5 @@
+vosk
+sounddevice
+numpy
+scipy
+ollama
