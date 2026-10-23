@@ -6,13 +6,13 @@ Nexor is a cross-platform, offline AI voice assistant powered by Ollama and Gemm
 
 Before installing Nexor, make sure you have the following:
 
-- **Python 3.11** — Required for the current setup.
-- **Git** — To clone the repository.
-- **Ollama** — To run the local AI model.
-- **Gemma 2 (2B)** — Nexor's local AI model.
-- **Vosk speech-recognition model** — For voice input.
-- **Microphone and audio output** — For voice interaction.
-- **Internet connection** — Required to download dependencies and models and access online features.
+- **Python 3.11** - Required for the current setup.
+- **Git** - To clone the repository.
+- **Ollama** - To run the local AI model.
+- **Gemma 2 (2B)** - Nexor's local AI model.
+- **Vosk speech-recognition model** - For voice input.
+- **Microphone and audio output** - For voice interaction.
+- **Internet connection** - Required to download dependencies and models and access online features.
 
 > **Python compatibility:** The current setup is designed for Python 3.11. Other Python versions, including Python 3.14, have not been verified and are not supported by the current setup.
 
@@ -22,7 +22,7 @@ Before installing Nexor, make sure you have the following:
 
 Install Python 3.11 and Git for your operating system.
 
-**Linux — Ubuntu, Debian, or Kali Linux**
+**Linux - Ubuntu, Debian, or Kali Linux**
 
 If Python 3.11 is available in your configured repositories, run:
 
@@ -70,7 +70,7 @@ cd Nexor-Local-AI
 
 A virtual environment keeps Nexor's Python dependencies separate from other projects.
 
-**Linux — Ubuntu, Debian, or Kali Linux**
+**Linux - Ubuntu, Debian, or Kali Linux**
 
 ```bash
 uv venv .venv --python 3.11
@@ -84,7 +84,7 @@ python3.11 -m venv .venv
 source .venv/bin/activate
 ```
 
-**Windows — PowerShell**
+**Windows - PowerShell**
 
 ```powershell
 py -3.11 -m venv .venv
@@ -108,13 +108,13 @@ source .venv/bin/activate
 
 Ensure the virtual environment is activated before installing the dependencies.
 
-**Linux — Using uv**
+**Linux - Using uv**
 
 ```bash
 uv pip install -r requirements.txt
 ```
 
-**Windows and macOS — Using pip**
+**Windows and macOS - Using pip**
 
 ```bash
 python -m pip install --upgrade pip
