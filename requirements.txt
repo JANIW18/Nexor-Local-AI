@@ -3,3 +3,4 @@ sounddevice
 numpy
 scipy
 ollama
+coqui-tts[codec]
